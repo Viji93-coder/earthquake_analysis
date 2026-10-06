@@ -9,7 +9,7 @@ import plotly.express as px
 
 # Database Connection & Data Loading
 
-password = quote_plus("v1j1bme30@gm@1l")
+password = quote_plus("*********")
 engine = create_engine(f"mysql+pymysql://root:{password}@localhost:3306/global")
 
 @st.cache_data
